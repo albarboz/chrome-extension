@@ -1,0 +1,48 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 201.32px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .weather-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .temperature img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .temperature p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #474747;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weather-container h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #474747;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  
+  .temperature {
+    display: flex;
+  }

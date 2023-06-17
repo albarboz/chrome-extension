@@ -1,0 +1,36 @@
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    height: 221.32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    inline-size: 270px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .quote-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-container h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  
+  .quote {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+  }
