@@ -25,7 +25,7 @@ export default function Weather() {
             } else {
                 // If no cached data, fetch from API
                 fetch(
-                    `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`
+                    `https://api.openweathermap.org/data/3.0/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`
                 )
                     .then((response) => response.json())
                     .then((data) => {
